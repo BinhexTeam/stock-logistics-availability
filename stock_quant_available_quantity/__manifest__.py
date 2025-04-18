@@ -3,7 +3,7 @@
 {
     "name": "Stock Quant Available Quantity",
     "summary": "Shows Available Quantity in the stock quant views",
-    "version": "16.0.1.0.0",
+    "version": "17.0.1.0.0",
     "category": "Stock",
     "website": "https://github.com/OCA/stock-logistics-availability",
     "author": "Sygel, Odoo Community Association (OCA)",
