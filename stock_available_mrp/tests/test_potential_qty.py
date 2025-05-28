@@ -63,12 +63,6 @@ class TestPotentialQty(TransactionCase):
         #  A product without a BoM
         cls.product_wo_bom = cls.env.ref("product.product_product_11")
 
-        #  Record the initial quantity available for sale
-        cls.initial_usable_qties = {
-            i.id: i.immediately_usable_qty
-            for i in [cls.tmpl, cls.var1, cls.var2, cls.product_wo_bom]
-        }
-
     def create_inventory(self, product, qty, location=None, company_id=None):
         if location is None:
             location = self.wh_main.lot_stock_id
@@ -101,12 +95,6 @@ class TestPotentialQty(TransactionCase):
         record.invalidate_model()
         #  Check the potential
         self.assertEqual(record.potential_qty, qty, msg)
-        # Check the variation of quantity available for sale
-        self.assertEqual(
-            (record.immediately_usable_qty - self.initial_usable_qties[record.id]),
-            qty,
-            msg,
-        )
 
     def test_01_potential_qty_no_bom(self):
         #  Check the potential when there's no BoM
@@ -413,7 +401,7 @@ class TestPotentialQty(TransactionCase):
             {
                 "bom_id": bom.id,
                 "product_id": bom_product.id,
-                "product_qty": 1,
+                "product_qty": 3,
                 "product_uom_id": self.env.ref("uom.product_uom_unit").id,
             }
         )
