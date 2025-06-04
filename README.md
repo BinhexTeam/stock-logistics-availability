@@ -26,6 +26,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [stock_available](stock_available/) | 18.0.1.0.0 |  | Stock available to promise
+[stock_available_unreserved](stock_available_unreserved/) | 18.0.1.0.0 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Quantity of stock available for immediate use
 [stock_free_quantity](stock_free_quantity/) | 18.0.1.1.0 |  | Stock Free Quantity
 [stock_picking_product_availability_inline](stock_picking_product_availability_inline/) | 18.0.1.0.0 | <a href='https://github.com/CarlosRoca13'><img src='https://github.com/CarlosRoca13.png' width='32' height='32' style='border-radius:50%;' alt='CarlosRoca13'/></a> | Show product availability in product drop-down of picking form view.
 
