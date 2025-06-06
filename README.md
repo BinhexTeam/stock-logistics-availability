@@ -30,7 +30,7 @@ addon | version | maintainers | summary
 [stock_available_base_exclude_location](stock_available_base_exclude_location/) | 16.0.1.0.0 | <a href='https://github.com/rousseldenis'><img src='https://github.com/rousseldenis.png' width='32' height='32' style='border-radius:50%;' alt='rousseldenis'/></a> | Base module to exclude locations for product available quantities
 [stock_available_exclude_location](stock_available_exclude_location/) | 16.0.1.0.0 |  | Exclude locations for product available quantities
 [stock_available_immediately](stock_available_immediately/) | 16.0.1.0.1 |  | Ignore planned receptions in quantity available to promise
-[stock_available_immediately_exclude_location](stock_available_immediately_exclude_location/) | 16.0.1.0.0 |  | Exclude locations from immediately usable quantity
+[stock_available_immediately_exclude_location](stock_available_immediately_exclude_location/) | 16.0.1.1.0 |  | Exclude locations from immediately usable quantity
 [stock_available_location_get_domain](stock_available_location_get_domain/) | 16.0.1.0.0 |  | This is a technical helper module in order to reuse the standard _get_domain_locations() function for locations and not quants
 [stock_available_mrp](stock_available_mrp/) | 16.0.1.1.0 |  | Consider the production potential is available to promise
 [stock_available_unreserved](stock_available_unreserved/) | 16.0.1.0.0 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Quantity of stock available for immediate use
