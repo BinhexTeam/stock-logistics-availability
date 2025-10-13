@@ -27,6 +27,7 @@ addon | version | maintainers | summary
 [stock_available_immediately](stock_available_immediately/) | 17.0.1.0.0 |  | Ignore planned receptions in quantity available to promise
 [stock_available_mrp](stock_available_mrp/) | 17.0.1.1.0 |  | Consider the production potential is available to promise
 [stock_free_quantity](stock_free_quantity/) | 17.0.1.1.0 |  | Stock Free Quantity
+[stock_quant_available_quantity](stock_quant_available_quantity/) | 17.0.1.0.0 | <a href='https://github.com/tisho99'><img src='https://github.com/tisho99.png' width='32' height='32' style='border-radius:50%;' alt='tisho99'/></a> | Shows Available Quantity in the stock quant views
 
 [//]: # (end addons)
 
