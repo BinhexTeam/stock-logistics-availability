@@ -21,7 +21,11 @@ to? There are many repositories with specific purposes. Have a look at this
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[stock_available](stock_available/) | 19.0.1.0.0 |  | Stock available to promise
 
 [//]: # (end addons)
 
